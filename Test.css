@@ -1,0 +1,108 @@
+body
+{
+	background-color: #b2077c;
+}
+h1 /*Заголовок*/
+{
+	text-shadow: -1.5px -1.5px 0 #01a595, -2px -2px 0 #01a595;
+	font-family:Monotype Corsiva;
+	text-align:center;
+	color:#89ffe5;
+	font-size: 80px;
+	letter-spacing: 3px;
+}
+div.sanya /*Заголовок сани*/
+{
+	display:block;
+	float: left;
+	color:white;
+	margin-left:50px;
+	font-family:mistral;
+	font-size:30px;
+	text-shadow:3px 3px 0 blue, 5px 5px 0 red;
+}
+div.vova /*Заголовок вовы*/
+{
+	display:block;
+	font-family:mistral;
+	color: yellow;
+	font-size: 30px;
+	letter-spacing:2px;
+	position:relative;
+	left:50px;
+}
+div.lesha /*Заголовок Лёши*/
+{
+	margin-top:0px;
+	margin-left:70px;
+	font-size:30px;
+	font-family:mistral;
+	color: gray;
+	text-shadow: 2px 2px 5px #2eeef4, -2px -2px 5px #59f5f9, 2px -2px 5px #4bf8fc, -2px 2px 5px #21f9ff;
+}
+div.vhtml /*Весь блок вовы*/
+{
+	
+display:  block;
+float:  left;
+width: 33%;
+}
+div.shtml /*Весь блок сани*/
+{
+	display: block;
+	float: left;
+	width: 33%;
+}
+div.lhtml /*весь блок Леши*/
+{
+	display:block;
+	float: left;
+	width: 33%;
+}
+.lph /*фотка леши*/
+{
+	display: block;
+	margin-left:50px;
+	width: 340px;
+	height: 400px;
+	background:url("img/lesha.jpg") no-repeat;
+	background-size: 400px 400px;
+	box-shadow: 0 0 150px 10px #0e3b84;
+}
+.lph:hover
+{
+	background:url("img/leshagif.gif") no-repeat;
+	background-size:340px 400px;
+}
+a.sph    /*фотка сани*/
+{
+	display: block;
+	position:relative;
+	margin-top:130px;
+	margin-left:70px;
+	width: 240px;
+	height: 400px;
+	background:url("img/sanya.jpg") no-repeat;
+	background-size: 240px 400px;
+	box-shadow:0 0 100px 30px silver;
+}
+a.sph:hover
+{
+	background:url("img/sanyagif.gif") no-repeat;
+	background-size: 240px 400px;
+}
+.image /*фотка вовы*/
+{
+	display: block;
+	margin-left:100px;
+	width: 280px;
+	height: 450px;
+	background:url("img/vova.jpg") no-repeat;
+	background-size: 280px 500px;
+	box-shadow: 0 0 245px 50px yellow;
+}
+.image:hover 
+{
+	background:url("img/Vovagif.gif") no-repeat;
+	background-size: 280px 450px;
+}
