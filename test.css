@@ -98,7 +98,9 @@ a.lph /*фотка леши*/
 a.lph:hover
 {
 	background:url("img/leshagif.gif") no-repeat;
-	background-size:340px 400px;
+	background-size:400px 400px;
+	transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
 }
 a.kph /*фотка карапета*/
 {
@@ -114,6 +116,7 @@ a.kph:hover
 {
 	background:url("img/karapetgif.gif") no-repeat;
 	background-size:600px 800px;
+	transform: rotate(-6deg);
 }
 a.sph    /*фотка сани*/
 {
@@ -131,6 +134,11 @@ a.sph:hover
 {
 	background:url("img/sanyagif.gif") no-repeat;
 	background-size: 240px 400px;
+    transition: 1s linear;
+	transform-style: preserve-3d;
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
 }
 .image /*фотка вовы*/
 {
@@ -140,10 +148,12 @@ a.sph:hover
 	height: 450px;
 	background:url("img/vova.jpg") no-repeat;
 	background-size: 280px 500px;
-	box-shadow: 0 0 245px 50px yellow;
+	box-shadow: 0 0 245px 50px yellow;	
 }
 .image:hover 
 {
 	background:url("img/Vovagif.gif") no-repeat;
 	background-size: 280px 450px;
+	transition:all 0.5s linear;
+	margin-left:50px;
 }
